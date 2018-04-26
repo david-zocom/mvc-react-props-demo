@@ -2,6 +2,7 @@
 
 interface ITriviaProps {
     question: string;
+    answer?: string;
 }
 
 export class Trivia extends React.Component<ITriviaProps, {}> {
